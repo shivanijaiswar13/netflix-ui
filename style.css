@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top,rgba(36, 36, 36, 0.582),#000),url(netflix_images.jpg) ;
+    position: relative;
+    padding: 10px 8%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+nav .logo{
+    width: 170px;
+    height: auto;
+    cursor: pointer;
+}
+ nav .logo img{
+    width: 100%;
+    
+}
+nav button{
+    border: 0;
+    outline: none;
+    background: rgb(206,12,12);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
